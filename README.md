@@ -1,6 +1,5 @@
-# mmml-audio-retrieval
+# BrewCLIP: A Bifurcated Representation Learning Framework for Audio-Visual Retrieval
 Audio/Image retrieval experiment project for 11-777
 
 To set up -- 
-clone https://github.com/atosystem/SpeechCLIP + follow dataset setup
-add files to the root directory of SpeechCLIP
+Follow dataset setup from https://github.com/atosystem/SpeechCLIP
