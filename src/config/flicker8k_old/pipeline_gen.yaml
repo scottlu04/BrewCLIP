@@ -1,0 +1,19 @@
+mode: asr
+data:
+  dataset:
+    name: flickr8k
+    dataset_root: /media/exx/HDD/zhenyulu/flickr
+    text_file: Flickr8k.token.txt
+    clip_image_transform: ViT-B/32 
+    load_image: true
+    load_audio: true
+    tokenizeText: true
+    modalities: ["audio", "image", "text"]
+  batch_size: 8
+  dev_batch_size: 64
+  split_ratio: 0.9
+
+ASR:
+  type: Whisper
+  name: base.en
+
